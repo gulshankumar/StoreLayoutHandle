@@ -1,0 +1,18 @@
+{
+  "name": "gulshandev/storelayouthandle",
+  "description": "Adds a layout handle store_<STORE_CODE> for store view customization",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "GulshanDev\\StoreLayoutHandle\\": "."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of GulshanDev_StoreLayoutHandle Module
+ * 
+ * @author Gulshan Kumar <gulshan.4dream@gmail.com>
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="layout_load_before">
+        <observer name="add_Store_layout" instance="GulshanDev\StoreLayoutHandle\Observer\AddStoreLayout" />
+    </event>
+</config>
